@@ -19,6 +19,7 @@ namespace project.Controllers
         public HomeController(IHostingEnvironment e) {
             he = e;
         }
+        
         //private readonly ILogger<HomeController> _logger;
 
         //public HomeController(ILogger<HomeController> logger)
@@ -40,7 +41,8 @@ namespace project.Controllers
         public IActionResult ShowFields(string fullName, IFormFile pic) 
         {
             ViewData["fname"] = fullName;
-            if (pic != null) {
+            if (pic != null) 
+            {
                 var fileName = Path.Combine(he.WebRootPath, Path.GetFileName(pic.FileName));
                 pic.CopyTo(new FileStream(fileName, FileMode.Create));
                 ViewData["fileLocation"] = "/"+Path.GetFileName(pic.FileName);
@@ -48,7 +50,7 @@ namespace project.Controllers
 
             return View();
         }
-
+        
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
