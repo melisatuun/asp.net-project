@@ -36,7 +36,7 @@ namespace project.Controllers
             return View();
         }
 
-        //picture upload function
+        //picture upload function ShowFields
         public IActionResult ShowFields(string fullName, IFormFile pic) 
         {
             ViewData["fname"] = fullName;

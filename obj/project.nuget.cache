@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rzHAkJwGPjHh1fTaESNVr5b2YxvIo70mnq2ZuOQnOaSLve30YrHJZfc3dwv8lDGZXU4t6+4Fd3EqVELb6x8PQA==",
+  "dgSpecHash": "49mDLleOYDVt2tFQc03CskeEbx6nqFpC1X7DhsY7O9RSS+4NNTdsXhqIZ3JjO3Z5ihLUIswdiz+ucbr8kTyHcQ==",
   "success": true,
-  "projectFilePath": "/Users/melo/project/project.csproj",
+  "projectFilePath": "/Users/melo/Desktop/project/project.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
