@@ -29,6 +29,7 @@ a {
 html {
   font-size: 14px;
 }
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -38,6 +39,7 @@ html {
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom {
   border-bottom: 1px solid #e5e5e5;
 }
@@ -59,6 +61,7 @@ html {
 }
 
 body {
+  
   /*
   background: #FFB6C1 url(pink.jpg) repeat-x top;
   font-size: 12pt;
@@ -67,14 +70,16 @@ body {
   padding: 0;
   color: #323343;
   */
-    background-image:url('../images/pink.jpg');
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-size: cover;
+
+  background-image:url('../images/pink.jpg');
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
 
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
