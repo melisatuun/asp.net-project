@@ -59,6 +59,19 @@ html {
 }
 
 body {
+  /*
+  background: #FFB6C1 url(pink.jpg) repeat-x top;
+  font-size: 12pt;
+  font-family: Trebuchet MS;
+  margin: 0;
+  padding: 0;
+  color: #323343;
+  */
+    background-image:url('../images/pink.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
