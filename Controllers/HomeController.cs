@@ -19,13 +19,6 @@ namespace project.Controllers
         public HomeController(IHostingEnvironment e) {
             he = e;
         }
-        
-        //private readonly ILogger<HomeController> _logger;
-
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-            //_logger = logger;
-        //}
 
         public IActionResult Index()
         {
