@@ -15,7 +15,7 @@ namespace project.Controllers
     public class HomeController : Controller
     {
         private readonly IHostingEnvironment he;
-
+        
         public HomeController(IHostingEnvironment e) {
             he = e;
         }
