@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/melo/Desktop/project/project.csproj",
+  "FilePath": "/Users/melo/Desktop/asp.net-project/project.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,42 +15619,42 @@
   "RootNamespace": "project",
   "Documents": [
     {
-      "FilePath": "/Users/melo/Desktop/project/Views/Home/Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/melo/Desktop/project/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "FilePath": "/Users/melo/Desktop/asp.net-project/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/melo/Desktop/project/Views/Shared/_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/melo/Desktop/project/Views/_ViewStart.cshtml",
+      "FilePath": "/Users/melo/Desktop/asp.net-project/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/melo/Desktop/project/Views/Shared/Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/melo/Desktop/project/Views/_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/melo/Desktop/project/Views/Home/ShowFields.cshtml",
+      "FilePath": "/Users/melo/Desktop/asp.net-project/Views/Home/ShowFields.cshtml",
       "TargetPath": "Views\\Home\\ShowFields.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/melo/Desktop/project/Views/Home/Privacy.cshtml",
+      "FilePath": "/Users/melo/Desktop/asp.net-project/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/melo/Desktop/asp.net-project/Views/Home/Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/melo/Desktop/asp.net-project/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/melo/Desktop/asp.net-project/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/melo/Desktop/asp.net-project/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     }
