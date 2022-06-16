@@ -14,7 +14,7 @@ namespace project.Models
         {
             var folder = Environment.SpecialFolder.LocalApplicationData;
             var path = Environment.GetFolderPath(folder);
-            DbPath = $"{path}{System.IO.Path.DirectorySeparatorChar}schools.db";
+            DbPath = $"{ path }{ System.IO.Path.DirectorySeparatorChar }schools.db";
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options) 
