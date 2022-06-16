@@ -15,10 +15,19 @@ namespace project
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
-            /*using (var db = new SchoolContext()) 
+        
+            using (var db = new SchoolContext()) 
             {
-                Console.WriteLine(db.DbPath);
-            }*/
+                db.Add(new School { Name = "Bilkent" });
+                db.SaveChanges();
+
+                var bilkent = db.Schools
+                    .OrderBy(b => b.Id)
+                    .Last();
+                
+                bilkent.Students.Add(new Student { Name = "Amerikan" });
+                db.SaveChanges();
+            }
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
