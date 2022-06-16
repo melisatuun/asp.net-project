@@ -15,7 +15,7 @@ namespace project.Controllers
     public class HomeController : Controller
     {
         private readonly IHostingEnvironment he;
-        
+
         public HomeController(IHostingEnvironment e) {
             he = e;
         }
@@ -36,7 +36,7 @@ namespace project.Controllers
         {
             return View();
         }
-
+        
         //picture upload function ShowFields
         public IActionResult ShowFields(string fullName, IFormFile pic) 
         {
