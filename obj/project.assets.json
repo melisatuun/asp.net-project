@@ -5657,11 +5657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/melo/Desktop/project/project.csproj",
+      "projectUniqueName": "/Users/melo/Desktop/asp.net-project/project.csproj",
       "projectName": "project",
-      "projectPath": "/Users/melo/Desktop/project/project.csproj",
+      "projectPath": "/Users/melo/Desktop/asp.net-project/project.csproj",
       "packagesPath": "/Users/melo/.nuget/packages/",
-      "outputPath": "/Users/melo/Desktop/project/obj/",
+      "outputPath": "/Users/melo/Desktop/asp.net-project/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/melo/.nuget/NuGet/NuGet.Config"

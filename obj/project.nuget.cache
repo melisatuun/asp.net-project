@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XACd2DCzYDpFZMt4Hl6mnvIRriHt+7BP+XzvnZ2RMW+/V/9NitnBEaAPZ5Tc9Xrytz+0WWFxq3hgS/jlcTZ4dw==",
+  "dgSpecHash": "btXeCqW27gjIaiCjorpEw+nFCkQmAca03WrXr9C4DDUdJWdo3QDHPCaU+VkEXX4trTwcF1WtS9z/lHwu0AiGnw==",
   "success": true,
-  "projectFilePath": "/Users/melo/Desktop/project/project.csproj",
+  "projectFilePath": "/Users/melo/Desktop/asp.net-project/project.csproj",
   "expectedPackageFiles": [
     "/Users/melo/.nuget/packages/microsoft.csharp/4.4.0/microsoft.csharp.4.4.0.nupkg.sha512",
     "/Users/melo/.nuget/packages/microsoft.data.sqlite.core/2.0.0/microsoft.data.sqlite.core.2.0.0.nupkg.sha512",
